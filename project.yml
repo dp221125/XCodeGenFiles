@@ -1,0 +1,29 @@
+name: {ProjectName}
+options:
+   deploymentTarget:
+     iOS: 13.0
+   createIntermediateGroups: true
+   bundleIdPrefix: com.milkyo
+targets:
+  {ProjectName}:
+    platform: iOS
+    type: application
+    info:
+      path: {query}/Supporting Files/Info.plist
+      properties:
+        CFBundlePackageType: $(PRODUCT_BUNDLE_PACKAGE_TYPE)
+        UISupportedInterfaceOrientations: [UIInterfaceOrientationPortrait]
+        UILaunchStoryboardName: LaunchScreen
+        UIApplicationSceneManifest:
+              UIApplicationSupportsMultipleScenes: false
+              UISceneConfigurations:
+                UIWindowSceneSessionRoleApplication:
+                  - UISceneConfigurationName: Default Configuration
+                    UISceneDelegateClassName: $(PRODUCT_MODULE_NAME).SceneDelegate
+    settings:
+      base:
+       SWIFT_VERSION: 5.2
+       TARGETED_DEVICE_FAMILY: 1,2
+    sources:
+      - {query}/Sources
+      - {query}/Supporting Files
