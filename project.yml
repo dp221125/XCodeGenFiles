@@ -9,7 +9,7 @@ targets:
     platform: iOS
     type: application
     info:
-      path: {query}/Supporting Files/Info.plist
+      path: {ProjectName}/Supporting Files/Info.plist
       properties:
         CFBundlePackageType: $(PRODUCT_BUNDLE_PACKAGE_TYPE)
         UISupportedInterfaceOrientations: [UIInterfaceOrientationPortrait]
@@ -25,5 +25,5 @@ targets:
        SWIFT_VERSION: 5.2
        TARGETED_DEVICE_FAMILY: 1,2
     sources:
-      - {query}/Sources
-      - {query}/Supporting Files
+      - {ProjectName}/Sources
+      - {ProjectName}/Supporting Files
