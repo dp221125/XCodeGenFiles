@@ -14,6 +14,11 @@ targets:
         CFBundlePackageType: $(PRODUCT_BUNDLE_PACKAGE_TYPE)
         UISupportedInterfaceOrientations: [UIInterfaceOrientationPortrait]
         UILaunchStoryboardName: LaunchScreen
+        UISupportedInterfaceOrientations~ipad:
+          - UIInterfaceOrientationPortrait
+          - UIInterfaceOrientationPortraitUpsideDown
+          - UIInterfaceOrientationLandscapeLeft
+          - UIInterfaceOrientationLandscapeRight
         UIApplicationSceneManifest:
               UIApplicationSupportsMultipleScenes: false
               UISceneConfigurations:
