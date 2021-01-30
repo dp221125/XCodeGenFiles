@@ -1,0 +1,7 @@
+package:
+  Then:
+    url: https://github.com/devxoul/Then
+    from: 2.7.0
+  SnapKit:
+    url: https://github.com/SnapKit/SnapKit
+    from: 5.0.1

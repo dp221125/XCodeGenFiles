@@ -1,4 +1,6 @@
 name: {ProjectName}
+include:
+  - package.yml
 options:
    deploymentTarget:
      iOS: 13.0
@@ -32,3 +34,6 @@ targets:
     sources:
       - {ProjectName}/Sources
       - {ProjectName}/Supporting Files
+    dependencies:
+      - package: Then
+      - package: SnapKit
