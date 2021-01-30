@@ -1,4 +1,4 @@
-package:
+packages:
   Then:
     url: https://github.com/devxoul/Then
     from: 2.7.0
