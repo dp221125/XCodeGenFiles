@@ -37,3 +37,4 @@ targets:
     dependencies:
       - package: Then
       - package: SnapKit
+      - package: RxSwift
