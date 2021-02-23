@@ -38,3 +38,4 @@ targets:
       - package: Then
       - package: SnapKit
       - package: RxSwift
+      - package: RxCocoa
