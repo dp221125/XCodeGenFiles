@@ -8,3 +8,6 @@ packages:
   RxSwift:
     url: https://github.com/ReactiveX/RxSwift
     from: 5.1.0
+  RxCocoa:
+    url: https://github.com/ReactiveX/RxSwift
+    from: 5.1.0
