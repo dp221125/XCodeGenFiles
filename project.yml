@@ -3,7 +3,7 @@ include:
   - package.yml
 options:
    deploymentTarget:
-     iOS: 13.0
+     iOS: 15.0
    createIntermediateGroups: true
    bundleIdPrefix: com.milkyo
 targets:
