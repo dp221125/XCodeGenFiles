@@ -29,7 +29,7 @@ targets:
                     UISceneDelegateClassName: $(PRODUCT_MODULE_NAME).SceneDelegate
     settings:
       base:
-       SWIFT_VERSION: 5.2
+       SWIFT_VERSION: 5.5
        TARGETED_DEVICE_FAMILY: 1,2
     sources:
       - {ProjectName}/Sources
